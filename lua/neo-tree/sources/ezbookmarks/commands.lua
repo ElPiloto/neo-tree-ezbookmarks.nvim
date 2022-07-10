@@ -15,6 +15,8 @@ M.cd = function(state)
   local node = state.tree:get_node()
   if node.type == "directory" then
     vim.cmd(':Neotree source=filesystem dir=' .. node.path)
+  elseif node.type == "ezbookmarks_header" then
+    cc.toggle_node(state)
   end
 end
 
