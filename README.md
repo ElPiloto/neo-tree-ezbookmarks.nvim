@@ -15,6 +15,7 @@ use {
     "kyazdani42/nvim-web-devicons", -- not strictly required, but recommended
     "MunifTanjim/nui.nvim",
     "ElPiloto/neo-tree-ezbookmarks.nvim", --This is our custom source :)
+    "lifer0se/ezbookmarks.nvim",  --and its dependency
   },
 }
 require("neo-tree").setup({
