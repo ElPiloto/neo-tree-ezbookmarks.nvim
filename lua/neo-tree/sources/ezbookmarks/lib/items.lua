@@ -1,8 +1,6 @@
 local vim = vim
 local renderer = require("neo-tree.ui.renderer")
-local file_items = require("neo-tree.sources.common.file-items")
 local log = require("neo-tree.log")
-local git = require("neo-tree.git")
 local utils = require("neo-tree.utils")
 
 local M = {}
