@@ -52,9 +52,12 @@ require("neo-tree").setup({
 ## Usage
 
 Step 1. Add bookmarks like you normally do using `ezbookmarks.nvim`
+
 Step 2. Run `:Neotree ezbookmarks` to view your bookmarks.
+
 Step 3. Open a bookmark with mapping in config (this is "<CR>" in example config above).
-Result: Neotree will open to the directory of your bookmark.
+
+*Result*: Neotree will open to the directory of your bookmark.
 
 #### ToDo
 
